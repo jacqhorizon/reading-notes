@@ -250,3 +250,132 @@ wp_enqueue_script('main-university-js', get_theme_file_uri('/build/index.js'), a
 * fifth arg - put in footer? t or f
 
 ## Interior Page Template
+
+* Do all the copy and pasting stuff again
+
+Tell WP to automatically generate title tag
+
+```php
+function university_features() {
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'university_features');
+```
+
+Dynamically Generate Link URL
+
+`<?php echo site_url('/about-us') ?>`
+
+## Parent & Child Pags
+
+* Page > Page Attributes > Parent
+* Access the child page like: url/parent/child
+* Every post has a unique number, it will be in the URL like: post.php?post=14
+
+Set up a dynamic navigation box
+
+```html
+<?php
+$theParent = wp_get_post_parent_id(get_the_ID());
+if ($theParent) {
+   ?>
+   <div class="metabox metabox--position-up metabox--with-home-link">
+         <p>
+            <a class="metabox__blog-home-link" href="<?php echo get_permalink($theParent); ?>">
+               <i class="fa fa-home" aria-hidden="true"></i>
+               Back to <?php echo get_the_title($theParent) ?>
+            </a> 
+            <span class="metabox__main">
+               <?php the_title() ?>
+            </span>
+         </p>
+   </div>
+   <?php
+}
+?>
+```
+
+## To Echo or Not to Echo
+
+Most functions **return** values so they can be flexible
+
+For example:
+
+```php
+   function doubleMe($x) {
+      return $x * 2;
+   }
+```
+
+* `echo doubleMe(4);`
+* `$magicalNumber = doubleMe(4);`
+* `if (doubleMe(4) == 8) {}`
+
+In WP, a function that starts with "get" will not echo for you. If a function starts with "the" it will echo.
+
+## Creating Page Links Menu
+
+Associative Array
+
+```php
+$animalSounds = array(
+   'cat' = 'meow',
+   'dog' = 'bark'
+);
+
+echo $animalSounds['dog']; //Outputs 'bark'
+```
+
+Put this where you want the menu:
+
+```php
+<?php wp_nav_menu(
+         array(
+               'theme_location' => 'footerLocationOne'
+         )
+      ); ?>
+```
+
+And make sure you register a nav menu in the functions file:
+
+```php
+register_nav_menu('footerLocationOne', 'Footer Location One');
+```
+
+## Quick Improvments
+
+In the header:
+
+Dynamically show language settings
+
+```html
+<html <?php language_attributes() ?>>
+   <head>
+```
+
+Dynamically show charset
+
+```html
+   <meta charset="<?php bloginfo('charset'); ?>">
+```
+
+Tells device to use it's native size. This connects with existing CSS
+
+```html
+   <meta name="viewport" content="width=device-width, initial-scale=1">`
+   <?php wp_head(); ?>
+</head>
+```
+
+Dynamically creates class names for the body based on what page you are on
+
+```html
+<body <?php body_class();?>>
+```
+
+## Creating the Blog
+
+* In wp-admin, click Settings and select which page should be home and which should be blog
+* `index.php` is going to be the blog page
+* `front-page.php` is going to be the home page
