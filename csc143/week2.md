@@ -37,10 +37,10 @@
 * **Has A Relationship:** Our BakeShop object *has a* BakeryOrder
   * Implies one class has a reference to an instance of another class
 * **Is A Relationship:** A truck *is a* vehicle
-  * Expressed as hierarchies where there are other *is a* relationships potentially expressed.
+  * Form classification hierarchies
   * Ex: a CD *is a* savings account which itself *is a* bank account
-* **Subclass:** inherits behaviors from its parent, plus access to public data
-* **Superclass:** the parent
+* **Subclass:** aka derived class, inherits behaviors from its parent, plus access to public data
+* **Superclass:** aka base class, the parent
 * **"Extend the class:""** Creating a subclass
   * `public class Student extends Person`
   * The subclass constructor always starts with keyword *super*
