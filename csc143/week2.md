@@ -72,3 +72,13 @@
 <img width="295" alt="image" src="https://github.com/jacqhorizon/reading-notes/assets/97759961/8fe19176-0b08-4b1d-b08c-9a642985eb63">
 
 ## Interfaces
+
+* **Interfaces:** Contractual behaviors that classes must implement
+  * Classes can implement one or more Interfaces
+  * With inheritance, classes can only have one parent
+  * Interface is a contract that says "if you do these things, I can make magic happen"
+ 
+<img width="498" alt="image" src="https://github.com/jacqhorizon/reading-notes/assets/97759961/eafdee5f-9c91-475b-9811-9eb232feaa48">
+
+  * `abstract public class Person implements ISavable` will compile without actually implementing the Interface methods because it's abstract
+  * The subclasses will compile if the parent has actually implemented the Interface methods
