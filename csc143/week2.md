@@ -31,5 +31,44 @@
 <img width="479" alt="image" src="https://github.com/jacqhorizon/reading-notes/assets/97759961/458fdc83-2fff-466c-b3d4-a702e4592a0e">
 
 * At their core, enum types work like integers. So you can compare with =
-# Motivation
 
+## Inheritance and Overrides
+
+* **Has A Relationship:** Our BakeShop object *has a* BakeryOrder
+  * Implies one class has a reference to an instance of another class
+* **Is A Relationship:** A truck *is a* vehicle
+  * Expressed as hierarchies where there are other *is a* relationships potentially expressed.
+  * Ex: a CD *is a* savings account which itself *is a* bank account
+* **Subclass:** inherits behaviors from its parent, plus access to public data
+* **Superclass:** the parent
+* **"Extend the class:""** Creating a subclass
+  * `public class Student extends Person`
+  * The subclass constructor always starts with keyword *super*
+* **Inheritance:** "Does this class have this method? If no, walk up the chain until you find it"
+  * Superclass can keep fields private from subclasses, you need to use the method
+* **Override:** Ex: the subclass can have it's own toString even if your superclass has a toString
+  * This will be an overridden method
+
+## Polymorphism and Abstracts
+
+* **Polymorphism:** You are going to get the right type, regardless of what kind of reference.
+  * Ex: `Person testPerson = new Student("name", "email");` will use the overriden toString method of Student
+  * Student treated as a Student
+  * BUT you cannot call methods specific to the subclass, because the Person reference does not know about those methods
+  * You *could* cast to fix this `((Student)testPerson).recordCourseCompletion("Sociology", 4.0);` but you probably *should not* do this
+* You can put different subtypes into an array
+* **Abstract class:** a class that cannot be instantiated
+  * `abstract public static Person` will make Person abstract because you only want to instanstiate its subclasses, Student, Teacher, etc
+  * Student, Teacher, etc are **concrete** classes
+* **Abstract method:** method you must implement in subclasses
+  * Declare in superclass without a body
+  * Implement in subclass
+  * Any subclass without the method will not compile
+
+<img width="345" alt="image" src="https://github.com/jacqhorizon/reading-notes/assets/97759961/39fbb795-98d1-4f09-b1a1-fe56b42ec40f">
+
+* In a subclass, you can call a superclass method
+
+<img width="295" alt="image" src="https://github.com/jacqhorizon/reading-notes/assets/97759961/8fe19176-0b08-4b1d-b08c-9a642985eb63">
+
+## Interfaces
