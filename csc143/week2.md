@@ -82,3 +82,52 @@
 
   * `abstract public class Person implements ISavable` will compile without actually implementing the Interface methods because it's abstract
   * The subclasses will compile if the parent has actually implemented the Interface methods
+
+## Monday Class Notes
+
+### Class Diagram
+
+* Include Interface in Class Diagram
+* Don't repeat the methods from the interface in the other classes
+* Two methods: readCities and readCountries
+* Full constructor call set methods with validations for all variables
+* Partial constructor will call full constructor using keyword this
+  * Pass null for state
+* Put comparableInterface in diagram and use compareTo()
+* Client class will create a new cityManager class
+
+### File Set Up
+
+* LastName_HW01
+* Copy CityInterface to source folder
+
+![image](https://github.com/jacqhorizon/reading-notes/assets/97759961/ebc384b5-6ae3-4185-b20f-b45f6eaa5667)
+
+### Happy Path Testing
+
+* **assertEquals**
+* **assertThrows**
+
+![image](https://github.com/jacqhorizon/reading-notes/assets/97759961/0d118354-9c76-43fe-8d72-2240721dd970)
+
+### Jagged Arrays
+
+* If you don't need the index, for example just printing, you can use for each loop
+
+### Comparable Interface
+
+![image](https://github.com/jacqhorizon/reading-notes/assets/97759961/ff982396-f63d-4253-887a-53366c618de7)
+
+* For strings, it compares the Ascii values
+* `San Francisco > San Diego` returns 2 because D - F = 2, therefore San Diego will go before San Francisco
+* Multiples interfaces `implement Comparable<City>, implement ...` separate with a comma
+* Adding `@Override` will make the compiler check the method signature
+
+| `Parent p = new Child( );` | `Child c = new Parent( );` | `Child c = ( Child ) new Parent( );` |
+|-----------------------------|----------------------------|--------------------------------------|
+| <- upcasting | incompatible type | Downcasting but throws ClassCastException at runtime - Child could have more methods than parent, thereore you cannot downcast it |
+
+
+
+
+
