@@ -128,6 +128,50 @@
 | <- upcasting | incompatible type | Downcasting but throws ClassCastException at runtime - Child could have more methods than parent, thereore you cannot downcast it |
 
 
+## Wednesday Class Notes
 
+* City Manager has two variables
+  * Cities: 2d Array of City classes
+  * Countries: Array of Strings
+* City Manager constructor
+  * file paramater type is File
+* sort information from file while reading 
+* City constructor
+  * Partial constructor should call full constructor
+* If a param doesn't have a set method, validate it in the constructor
 
+### Student Department Demo
 
+Diagram
+
+![image](https://github.com/jacqhorizon/reading-notes/assets/97759961/af0f3bc6-cf7a-4aba-990d-b51465fa48ed)
+
+Department
+
+![image](https://github.com/jacqhorizon/reading-notes/assets/97759961/83d24623-7cad-46d4-89a3-76c173e5079e)
+
+Student
+
+![image](https://github.com/jacqhorizon/reading-notes/assets/97759961/f2890ba4-6e7b-4bfa-838a-bd43696a3308)
+
+![image](https://github.com/jacqhorizon/reading-notes/assets/97759961/b1c95228-670e-4bbb-ba8b-99e85f188008)
+
+### Bubble Sort
+
+```java
+public int compareTo(Student other) {
+    return this.id.compareTo(other.id);
+}
+
+public void sort() {
+    Student tmp;
+    for(int i = 0; i<totalStudents-1; i++) {
+        for(int x = 0; x<totalStudents-1-i; x++) {
+            if (students[x].compareTo(students[x+1]) > 0) {
+                tmp = students[x];
+                students[x] = students[x+1];
+                student[x+1] = tmp;
+            }
+        }
+    }
+```
