@@ -379,3 +379,245 @@ Dynamically creates class names for the body based on what page you are on
 * In wp-admin, click Settings and select which page should be home and which should be blog
 * `index.php` is going to be the blog page
 * `front-page.php` is going to be the home page
+
+### Pagination
+
+Put this at the bottom of `index.php`
+
+```php
+echo paginate_links();
+```
+
+### Clean up Single.php
+
+* We can steal from page.php because they are very similar
+* Copy and paste the page banner
+
+Relative URL creation
+
+`<?php echo site_url('/blog'); ?>`
+
+Metabox
+
+```html
+    <div class="metabox metabox--position-up metabox--with-home-link">
+      <p><a class="metabox__blog-home-link" href="<?php echo site_url('/blog'); ?>"><i class="fa fa-home" aria-hidden="true"></i>Blog Home</a> <span class="metabox__main"><?php the_title(); ?></span></p>
+    </div>
+```
+
+Get author, date, and category
+
+```php
+Posted by <?php the_author_posts_link(); ?> on <?php the_time('n.j.y'); ?> in <?php echo get_the_category_list(', '); ?>
+```
+
+### Archive
+
+* archive.php will show when you go to a category or author
+* copy paste index.php
+
+Dynamic Titles
+
+If you want to customize each title:
+
+```php
+<?php if (is_category()) {
+    single_cat_title();
+}
+if (is_author()) {
+    echo 'Posts by '; the_author();
+}
+?>
+```
+
+If you want WP to generate archive titles:
+
+```php
+<?php the_archive_title(); ?>
+```
+
+WP can also generate the archive description:
+
+```php
+<?php the_archive_description(); ?>
+```
+
+## Queries
+
+* The WP loop is going to default query (`have_posts()` and `the_post()`) whatever posts are associated with that page, so for example the front page will automatically only query 'Home' if you set that to the front page.
+
+OOP!
+
+```php
+$dog  = new Animal(); //Class
+$dog->drinkWater(); //Access method
+```
+
+```php
+$homepagePosts = new WP_Query();
+```
+
+Post Query Example
+
+```php
+      <?php
+      $homepagePosts = new WP_Query(array('posts_per_page' => 2));
+
+      while ($homepagePosts->have_posts()) {
+        $homepagePosts->the_post(); ?>
+        <li>
+          <?php the_title(); ?>
+        </li>
+        <?php
+      }
+      ?>
+```
+
+* When you are done with the query and the while loop make sure you call `wp_reset_postdata()`
+* `<?php the_time('M') ?>` access the month in 3 letter abbreviation
+* `<?php the_time('d') ?>` access the day number
+* `<?php echo wp_trim_words(get_the_content(), 18); ?>` have WP trim the words of the content down to 18 words
+* `get_post_type() == 'post'` use this to write an if statement to check if you are looking at a post
+* `is_page('about-us')` use this to write an if statement to check if you are on about us
+
+## Custom Post Types
+
+* By default, WP has two post types: post and page
+* In the url you can see post_type=page
+
+### Register a custom post type
+
+functions.php
+
+```php
+function university_post_types()
+{
+  register_post_type('event', array(
+    'public' => true,
+    'show_in_rest' => true,
+    'labels' => array( //Customize the labels 
+      'name' => 'Events',
+      'add_new_item'=> 'Add New Event',
+      'edit_item'=> 'Edit Event',
+      'all_items'=>'All Events',
+      'singular_name'=> 'Event'
+    ),
+    'menu_icon'=> 'dashicons-calendar'
+  )
+  );
+}
+add_action('init', 'university_post_types');
+```
+
+* the first parameter is the name of the post type that you will see in the URL
+* Use Wordpress Dashicons
+* functions.php is not a great spot to keep this because it's easy to accidentally delete
+* Put them in **Must Use Plugins** instead
+* Within `wp-content` make a folder called `mu-plugins` with a file in it (file can be named whatever)
+* Put this function in that file instead
+
+To query custom post type
+
+```php
+$homepagePosts = new WP_Query(array(
+   'posts_per_page' => 2,
+   'post_type'=> 'event'
+));
+```
+
+* Rebuild permalink structure: go to settings > permalinks > save, that way the event permalinks will load
+
+### Create archive for post type
+
+```php
+register_post_type('event', array(
+   'has_archive'=> true,
+   'rewrite'=> array('slug'=>'events'),
+   ...
+```
+
+* Update the permalinks again
+* `archive-event.php` will be the file for the events archive, same structure as single posts
+
+### Single custom post page
+
+* Wordpress looks for `single-POSTTYPE.php`
+* for example `single-event.php`
+* To access the archive link `<?php echo get_post_type_archive_link('event') ?>` that way you can change the slug in the future
+
+## Excerpts
+
+Instead of trimming words all the time,
+
+```php
+<?php if (has_excerpt()) {
+   echo get_the_excerpt();
+} else {
+   echo wp_trim_words(get_the_content(), 18);
+} ?>
+```
+
+For custom post types, you also have to add to the register
+
+```php
+'supports'=> array('title', 'editor', 'excerpt'),
+```
+
+## Custom Fields
+
+* Two industry standard custom field plugins:
+  * Advanced custom fields (ACF)
+  * CMB2 (Custom Metaboxes 2)
+
+* Install ACF
+* Create a new custom field
+* Make sure you set the location to events
+* You can access the field with `echo the_field()` or
+
+```html
+<span class="event-summary__month">
+   <?php
+   $eventDate = new DateTime(get_field('event_date'));
+   echo $eventDate->format('M');
+   ?>
+</span>
+<span class="event-summary__day">
+   <?php echo $eventDate->format('d') ?>
+</span>
+```
+
+## Sort Custom Queries
+
+* `'posts_per_page' => -1,` returns everything that meets your query
+* `'orderby' => 'title` sorts everything by descending title order
+* `'orderby' => 'rand'` sorts randomly
+* `'order' => 'ASC'` changes the order, can also be `DESC`
+
+```php
+$homepagePosts = new WP_Query(
+   array(
+      'posts_per_page' => -1,
+      'post_type' => 'event',
+      'orderby' => 'meta_value_num', // 'meta_value' for strings
+      'meta_key' => 'event_date', //use with 'meta_value'
+      'order' => 'ASC'
+   )
+);
+```
+
+### Add a filter comparison
+
+* 'Ymd' represents that number string for the date
+* Create new var `$today = date('Ymd');`
+* Add comparison to query
+
+```php
+'meta_query' => array(
+array(
+   'key' => 'event_date',
+   'compare' => '>=',
+   'value' => $today,
+   'type' => 'numeric'
+)
+)
+```
