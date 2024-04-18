@@ -65,3 +65,10 @@
 * Supplier can only return methods to client class
 * No static methods in supplier class
 * Use `/** {@inheritDocs }  */` when writing Javadoc for interface overrides
+
+### Iterator
+
+* In interfaces:
+  * Abstract methods *must* be implemented
+  * Instance methods are optional
+  
