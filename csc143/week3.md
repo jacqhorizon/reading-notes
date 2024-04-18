@@ -58,4 +58,10 @@
 
 <img width="537" alt="image" src="https://github.com/jacqhorizon/reading-notes/assets/97759961/2951e205-4daf-4e3d-bdb2-284a3171febc">
 
+## Wednesday Class
 
+* Client class - try/catch
+* Supplier class - exception
+* Supplier can only return methods to client class
+* No static methods in supplier class
+* Use `/** {@inheritDocs }  */` when writing Javadoc for interface overrides
