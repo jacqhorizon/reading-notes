@@ -79,3 +79,17 @@ public Iterator<E> iterator() {
  return new ArrayListIterator();
 }
 ```
+![image](https://github.com/jacqhorizon/reading-notes/assets/97759961/200cdfc4-244b-469c-896c-1ed8486b70dd)
+
+```java
+private class ArrayListIterator implements Iterator<E> {
+...
+}
+```
+
+```java
+// post: returns an iterator for this list
+public Iterator<E> iterator() {
+ return new ArrayListIterator();
+}
+```
