@@ -71,4 +71,11 @@
 * In interfaces:
   * Abstract methods *must* be implemented
   * Instance methods are optional
-  
+
+```java
+import java.util.Iterator;
+
+public Iterator<E> iterator() {
+ return new ArrayListIterator();
+}
+```
