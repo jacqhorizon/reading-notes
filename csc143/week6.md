@@ -21,7 +21,7 @@ public static void drawStars(int n) {
   }
 }
 ```
-# Factorial
+## Factorial
 
 * Formula: 5! = 5 * 4 * 3 * 2 * 1
 * n! = n(n-1)!
@@ -33,5 +33,31 @@ public static void drawStars(int n) {
   
     = 1 if n=0, 1
 
-  
-  
+## Reversing a list
+
+```java
+public static void reverse(Scanner input) {
+ if(input.hasNextLine()) { // base case
+  String line = input.nextLine(); // base case
+  reverse(input) // recursive case
+  System.out.print(line); // Once we go through the stack, we can print all the lines
+ }
+}
+```
+
+* The stack is LIFO!!
+
+## Duplicating numbers
+
+```java
+public static int stutter(int n) {
+    if (n < 10) {
+        return n * 11;
+    } else {
+        int a = stutter(n /10); // this stack must finish before going to next line
+        int b = stutter(n % 10);
+        return a * 100 + b;
+    }
+}
+```
+![image](https://github.com/jacqhorizon/reading-notes/assets/97759961/3d24d0a7-6f3c-4bb2-8be0-603e15c22942)
