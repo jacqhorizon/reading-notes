@@ -104,5 +104,7 @@ public static int stutter(int n) {
 
 ![image](https://github.com/jacqhorizon/reading-notes/assets/97759961/3286727e-5931-4523-a575-1bccbd6c77dc)
 
+## Wednesday Class
 
-* 
+* `public class LinkedList<E extends Comparable<E>> {`
+* T is type, E is element
