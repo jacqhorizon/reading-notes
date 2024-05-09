@@ -108,3 +108,60 @@ public static int stutter(int n) {
 
 * `public class LinkedList<E extends Comparable<E>> {`
 * T is type, E is element
+
+```java
+public static void toBinary(int n) {
+ if(n <2) {
+  System.out.print(n);
+ } else {
+  System.out.print(n%2);
+ }
+}
+```
+
+![image](https://github.com/jacqhorizon/reading-notes/assets/97759961/d12d7610-981b-4d81-a68c-ea87ce3613ee)
+
+### Binary Tree
+
+* client will never get access to node class
+
+![image](https://github.com/jacqhorizon/reading-notes/assets/97759961/2b23f81c-0d2c-4e47-94e1-88828d465bff)
+
+Tree Traversal
+
+* recursive statements
+
+```
+private preOrder(IntTreeNode root) {
+ sop(root.data);
+ preOrder(root.left);
+ preOrder(root.right);
+}
+```
+
+```
+private inOrder(IntTreeNode root) {
+ if (root != null)
+ preOrder(root.left);
+ sop(root.data);
+ preOrder(root.right);
+}
+```
+
+Create 2 overloaded methods - one public, one private
+
+Public:
+
+```
+public void preOrder() {
+ sop("preorder!");
+ preorder(overAllRoot);
+```
+
+Private:
+
+```
+private void preOrder(IntTreeNode root) {
+```
+
+* Overload: having two or more methods (or functions) in a class with the same name and different arguments (or parameters)
