@@ -11,7 +11,7 @@ package assignment05_kirkman_jacq;
  * - Multiplication
  * - Division
  *
- * @author Jacq Kirkman <jacq.kirkman@seattlecolleges.edu>
+ * @author Jacq Kirkman 
  * @version 
  */
 public class Fraction

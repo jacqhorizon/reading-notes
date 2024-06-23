@@ -10,8 +10,8 @@ import java.io.FileNotFoundException;
  * the words and one to hold the frequencies of the words. The word and its frequency
  * should have the same indexes in two parallel arrays
  *
- * @author Varik Hoang <varikmp@uw.edu>
- * @author Jacq Kirkman <jacq.kirkman@seattlecolleges.edu>
+ 
+ * @author Jacq Kirkman 
  * @version 1
  */
 

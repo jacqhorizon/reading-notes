@@ -12,6 +12,7 @@
 * Every algorithm involves at least 2 cases
 * **Base case:** simple occurence that can be answered directly
 * **Recursive case:** a more complex ocurrence of the problem that cannot be directly answered, but can instead be described in terms of smaller occurrences of the same problem
+
 ```java
 public static void drawStars(int n) {
   if(n<0) throw new IllegalArgumentException(" ");
@@ -62,11 +63,12 @@ public static int stutter(int n) {
     }
 }
 ```
+
 ![image](https://github.com/jacqhorizon/reading-notes/assets/97759961/3d24d0a7-6f3c-4bb2-8be0-603e15c22942)
 
 ## Trees
 
-* **Tree:** a directed, acyclic structure of linked nodes
+ * **Tree:** a directed, acyclic structure of linked nodes
  * **Directed:** has one-way links between nodes
  * **Acyclic:** No path wraps back around to the same node twice
  * **Binary tree:** Tree where each node has at most two children

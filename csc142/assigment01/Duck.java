@@ -1,9 +1,7 @@
 
 /**
  * The class is to print a text-based duck to the console
- *
- * @author Varik Hoang <varikmp@uw.edu>
- * @author Jacq Kirkman <jacq.kirkman@seattlecolleges.eduL>
+ * @author Jacq Kirkman 
  * @version 1
  */
 

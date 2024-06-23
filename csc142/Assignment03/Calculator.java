@@ -4,8 +4,8 @@ import java.util.Scanner;
  * The class is to help user convert binary  numbers into decimals
  * and later report the statistic information (max, min, median, average)
  *
- * @author Varik Hoang <varikmp@uw.edu>
- * @author Jacq Kirkman <jacq.kirkman@seattlecolleges.edu>
+ 
+ * @author Jacq Kirkman 
  * @version 1
  */
 public class Calculator {

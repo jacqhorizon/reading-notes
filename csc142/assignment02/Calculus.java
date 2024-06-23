@@ -1,8 +1,7 @@
 /**
  * This class is to calculate pi and euler constant
  *
- * @author Varik Hoang <varikmp@uw.edu>
- * @author Jacq Kirkman <jacq.kirkman@seattlecolleges.edu>
+ * @author Jacq Kirkman 
  * @version 1
  */
 public class Calculus {

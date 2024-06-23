@@ -1,8 +1,7 @@
 /**
  * The class is to print out the lyrics of the song Five Little Ducks
  *
- * @author Varik Hoang <varikmp@uw.edu>
- * @author Jacq Kirkman <jacq.kirkman@seattlecolleges.eduL>
+ * @author Jacq Kirkman
  * @version 1
  */
 

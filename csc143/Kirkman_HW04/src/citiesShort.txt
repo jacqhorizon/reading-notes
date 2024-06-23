@@ -1,0 +1,401 @@
+400
+      14608512	Shanghai, China
+      13076300	Buenos Aires, Argentina
+      12691836	Mumbai, India
+      12294193	Mexico City, Distrito Federal, Mexico
+      11624219	Karachi, Pakistan
+      11174257	İstanbul, Turkey
+      10927986	Delhi, India
+      10444527	Manila, Philippines
+      10381222	Moscow, Russia
+      10356500	Dhaka, Bangladesh
+      10349312	Seoul, South Korea
+      10021295	São Paulo, Brazil
+       9000000	Lagos, Nigeria
+       8540121	Jakarta, Indonesia
+       8336599	Tokyo, Japan
+       8263100	Zhumadian, China
+       8175133	New York, New York, United States
+       7871900	Taipei, Taiwan
+       7785965	Kinshasa, Democratic Republic of the Congo
+       7737002	Lima, Peru
+       7734614	Cairo, Egypt
+       7556900	London, United Kingdom
+       7480601	Beijing, China
+       7153309	Tehrān, Iran
+       7150000	Nanchong, China
+       7102602	Bogotá, Colombia
+       7012738	Hong Kong, China
+       6310888	Lahore, Pakistan
+       6023699	Rio de Janeiro, Brazil
+       5672513	Baghdad, Iraq
+       5499000	Tai’an, China
+       5104476	Bangkok, Thailand
+       5104047	Bangalore, India
+       5000000	Yueyang, China
+       4837295	Santiago, Chile
+       4800000	Kaifeng, China
+       4631392	Kolkata, India
+       4612191	Toronto, Ontario, Canada
+       4477638	Yangon, Myanmar
+       4394576	Sydney, New South Wales, Australia
+       4328063	Chennai, India
+       4205961	Riyadh, Saudi Arabia
+       4184206	Wuhan, China
+       4039745	Saint Petersburg, Russia
+       3967028	Chongqing, China
+       3950437	Chengdu, China
+       3920222	Chittagong, Bangladesh
+       3811516	Alexandria, Egypt
+       3792621	Los Angeles, California, United States
+       3766207	Tianjin, China
+       3730206	Melbourne, Victoria, Australia
+       3719710	Ahmadābād, India
+       3678555	Pusan, South Korea
+       3677115	Abidjan, Cote d'Ivoire
+       3626068	Kano, Nigeria
+       3597816	Hyderābād, India
+       3590000	Puyang, China
+       3574443	Yokohama-shi, Japan
+       3565108	Ibadan, Nigeria
+       3547809	Singapore, Singapore
+       3517182	Ankara, Turkey
+       3512192	Shenyang, China
+       3467331	Hồ Chí Minh City, Vietnam
+       3460000	Shiyan, China
+       3433441	Cape Town, South Africa
+       3426354	Berlin, Germany
+       3268513	Montréal, Quebec, Canada
+       3255944	Madrid, Spain
+       3229883	Harbin, China
+       3225812	Xi’an, China
+       3222000	Pyongyang, North Korea
+       3200000	Lanzhou, China
+       3152825	Guangzhou, China
+       3144909	Casablanca, Morocco
+       3120282	Durban, South Africa
+       3087010	Nanjing, China
+       3043532	Kabul, Afghanistan
+       3000000	Shenzhen, China
+       3000000	Caracas, Venezuela
+       2935744	Pune, India
+       2894504	Sūrat, India
+       2867446	Jeddah, Saudi Arabia
+       2823249	Kānpur, India
+       2776168	Luanda, Angola
+       2757729	Addis Ababa, Ethiopia
+       2750547	Nairobi, Kenya
+       2722475	Taiyuan, China
+       2711840	Salvador, Brazil
+       2711758	Jaipur, India
+       2698652	Dar es Salaam, Tanzania
+       2695598	Chicago, Illinois, United States
+       2628000	Incheon, South Korea
+       2612800	Yunfu, China
+       2600000	Al Başrah, Iraq
+       2592413	Ōsaka-shi, Japan
+       2587183	Mogadishu, Somalia
+       2566540	Taegu, South Korea
+       2563241	Rome, Italy
+       2537421	Changchun, China
+       2514227	Kiev, Ukraine
+       2506595	Faisalābād, Pakistan
+       2500603	İzmir, Turkey
+       2493400	Zhongshan, China
+       2472011	Lucknow, India
+       2443203	Al Jīzah, Egypt
+       2400000	Fortaleza, Brazil
+       2392877	Cali, Colombia
+       2374658	Surabaya, Indonesia
+       2373224	Belo Horizonte, Brazil
+       2352057	Dakar, Senegal
+       2307177	Mashhad, Iran
+       2228018	Nāgpur, India
+       2225000	Maracaibo, Venezuela
+       2207929	Raigarh Fort, India
+       2207718	Brasília, Brazil
+       2201941	Santo Domingo, Dominican Republic
+       2191279	Nagoya-shi, Japan
+       2163824	Havana, Cuba
+       2138551	Paris, France
+       2099451	Houston, Texas, United States
+       2073938	Changsha, China
+       2069266	Jinan, China
+       2065597	Mosul, Iraq
+       2035307	Dalian, China
+       2026469	Johannesburg, South Africa
+       2015483	Al Baṣrah, Iraq
+       2014125	Zhengzhou, China
+       2000900	Almaty, Kazakhstan
+       1999979	Medellín, Colombia
+       1992474	Shijiazhuang, China
+       1978028	Tashkent, Uzbekistan
+       1977663	Algiers, Algeria
+       1974647	Khartoum, Sudan
+       1963264	Accra, Ghana
+       1952029	Guayaquil, Ecuador
+       1937451	Sanaa, Yemen
+       1916100	Beirut, Lebanon
+       1883027	Sapporo-shi, Japan
+       1881977	Jilin, China
+       1878129	Hangzhou, China
+       1877155	Bucharest, Romania
+       1871351	Nanchang, China
+       1837969	Vancouver, British Columbia, Canada
+       1837041	Indore, India
+       1820888	Iztapalapa, Distrito Federal, Mexico
+       1806226	Ecatepec, México, Mexico
+       1767200	Conakry, Guinea
+       1754256	Maracay, Venezuela
+       1750971	Medan, Indonesia
+       1743101	Rāwalpindi, Pakistan
+       1742124	Minsk, Belarus
+       1739117	Hamburg, Germany
+       1718421	Curitiba, Brazil
+       1702139	Warsaw, Poland
+       1699719	Bandung, Indonesia
+       1696128	Budapest, Hungary
+       1695047	Soweto, South Africa
+       1691468	Vienna, Austria
+       1655753	Rabat, Morocco
+       1642245	Qingdao, China
+       1640589	Guadalajara, Jalisco, Mexico
+       1621537	Barcelona, Spain
+       1619438	Pretoria, South Africa
+       1602264	Aleppo, Syria
+       1599920	Patna, India
+       1599914	Bhopāl, India
+       1598210	Manaus, Brazil
+       1596949	Tangshan, China
+       1590668	Xinyang, China
+       1590256	Puebla de Zaragoza, Puebla, Mexico
+       1582102	Kaduna, Nigeria
+       1573544	Phnom Penh, Cambodia
+       1569394	Damascus, Syria
+       1547164	Eşfahān, Iran
+       1545368	Ludhiāna, India
+       1542813	Harare, Zimbabwe
+       1528478	Kōbe-shi, Japan
+       1526006	Philadelphia, Pennsylvania, United States
+       1520119	Bekasi, Indonesia
+       1519711	Kaohsiung, Taiwan
+       1512354	Ciudad Juárez, Chihuahua, Mexico
+       1508225	Urumqi, China
+       1482200	Asunción, Paraguay
+       1478098	Recife, Brazil
+       1475221	Taiden, South Korea
+       1468609	Kumasi, Ghana
+       1459640	Kyoto, Japan
+       1453975	Kuala Lumpur, Malaysia
+       1448075	Karaj, Iran
+       1446704	Perth, Western Australia, Australia
+       1445632	Phoenix, Arizona, United States
+       1442271	Kathmandu, Nepal
+       1441500	Palembang, Indonesia
+       1437230	Multān, Pakistan
+       1431270	Hanoi, Vietnam
+       1430885	Kharkiv, Ukraine
+       1430055	Āgra, India
+       1428214	Córdoba, Argentina
+       1424641	Tabrīz, Iran
+       1419007	Novosibirsk, Russia
+       1416938	Kwangju, South Korea
+       1412701	Bursa, Turkey
+       1409476	Vadodara, India
+       1407737	Belém, Brazil
+       1400646	Fushun, China
+       1399814	Quito, Ecuador
+       1392289	Fukuoka-shi, Japan
+       1391433	Antananarivo, Madagascar
+       1390581	Luoyang, China
+       1388904	Hefei, China
+       1386330	Hyderābād, Pakistan
+       1385083	Valencia, Venezuela
+       1384471	Gujrānwāla, Pakistan
+       1380425	Barranquilla, Colombia
+       1380000	Liuyang, China
+       1376457	Tijuana, Baja California, Mexico
+       1373770	Lubumbashi, Democratic Republic of the Congo
+       1372741	Porto Alegre, Brazil
+       1372124	Tangerang, Indonesia
+       1364389	Santa Cruz de la Sierra, Bolivia
+       1358318	Handan, China
+       1353189	Kampala, Uganda
+       1343091	Suzhou, China
+       1342339	Khulna, Bangladesh
+       1338082	Douala, Cameroon
+       1333973	Shantou, China
+       1327407	San Antonio, Texas, United States
+       1324570	Gorakhpur, India
+       1323624	Mecca, Saudi Arabia
+       1321717	Makassar, Indonesia
+       1307402	San Diego, California, United States
+       1306785	Kawasaki, Japan
+       1306661	Milano, Italy
+       1301768	Baotou, China
+       1300000	Medina, Saudi Arabia
+       1299369	Yaoundé, Cameroon
+       1297281	Bamako, Mali
+       1289497	Nāsik, India
+       1288084	Semarang, Indonesia
+       1287573	Yekaterinburg, Russia
+       1284609	Brazzaville, Republic of Congo
+       1284606	Pimpri, India
+       1284164	Nizhniy Novgorod, Russia
+       1275857	Amman, Jordan
+       1273715	Budta, Philippines
+       1273651	Belgrade, Serbia
+       1270737	Montevideo, Uruguay
+       1267440	Lusaka, Zambia
+       1262255	Kalyān, India
+       1261517	Thāne, India
+       1260391	München, Germany
+       1253309	Stockholm, Sweden
+       1251739	Ra’s Bayrūt, Lebanon
+       1249942	Shīrāz, Iran
+       1248988	Adana, Turkey
+       1242724	Suigen, South Korea
+       1234742	Port-au-Prince, Haiti
+       1232220	Ciudad Nezahualcóyotl, México, Mexico
+       1223184	Meerut, India
+       1220229	Farīdābād, India
+       1218773	Peshāwar, Pakistan
+       1212504	Davao, Philippines
+       1208099	Mandalay, Myanmar
+       1200000	Santiago de los Caballeros, Dominican Republic
+       1200000	Omdurman, Sudan
+       1199275	Anshan, China
+       1199193	Tongshan, China
+       1199191	Ghāziābād, India
+       1198129	Depok, Indonesia
+       1197816	Dallas, Texas, United States
+       1193350	Saitama, Japan
+       1193161	Gustavo A. Madero, Distrito Federal, Mexico
+       1193000	Dombivli, India
+       1191613	Maputo, Mozambique
+       1179720	Fuzhou, China
+       1177362	Rājkot, India
+       1173533	Rosario, Argentina
+       1171633	Guiyang, China
+       1171195	Goiânia, Brazil
+       1169577	Guarulhos, Brazil
+       1165581	Prague, Czech Republic
+       1164404	Benares, India
+       1153615	Copenhagen, Denmark
+       1152556	Sofia, Bulgaria
+       1150989	Tripoli, Libya
+       1148665	Port Harcourt, Nigeria
+       1143841	Hiroshima-shi, Japan
+       1137600	Dayan, China
+       1137347	Dubai, United Arab Emirates
+       1134730	Samara, Russia
+       1129281	Omsk, Russia
+       1125058	Benin City, Nigeria
+       1122874	Monterrey, Nuevo León, Mexico
+       1121974	Malingao, Philippines
+       1116513	Baku, Azerbaijan
+       1114626	León, Guanajuato, Mexico
+       1112449	Maiduguri, Nigeria
+       1108647	Wuxi, China
+       1104738	Kazan, Russia
+       1093485	Yerevan, Armenia
+       1092450	Amritsar, India
+       1086505	Ouagadougou, Burkina Faso
+       1077730	Yono, Japan
+       1074482	Rostov-na-Donu, Russia
+       1074159	Adelaide, South Australia, Australia
+       1073438	Allahābād, India
+       1073069	Goyang, South Korea
+       1065975	Gaziantep, Turkey
+       1063178	Vishākhapatnam, India
+       1062919	Chelyabinsk, Russia
+       1052678	Datong, China
+       1049498	Tbilisi, Georgia
+       1047700	Changshu City, China
+       1040725	Taichung, Taiwan
+       1037562	Sendai-shi, Japan
+       1034724	Teni, India
+       1034081	Xianyang, China
+       1033338	Ufa, Russia
+       1032822	Dnipropetrovsk, Ukraine
+       1031935	Seongnam, South Korea
+       1031554	Campinas, Brazil
+       1030168	Jabalpur, India
+       1027672	Hāora, India
+       1027655	Huainan, China
+       1024700	Donets’k, Ukraine
+       1024027	Dublin, Ireland
+       1023674	Kunming, China
+       1019942	Calgary, Alberta, Canada
+       1019022	Brussels, Belgium
+       1016441	Aurangābād, India
+       1011417	Volgograd, Russia
+       1002118	Nova Iguaçu, Brazil
+       1001985	Jieyang, China
+       1001558	Odessa, Ukraine
+       1000000	Zhu Cheng City, China
+       1000000	Shivaji Nagar, India
+       1000000	Masjid Jamie Baitul Muttaqien, Indonesia
+        997536	Kitakyūshū, Japan
+        997281	Solāpur, India
+        995652	Baoding, China
+        994938	Guatemala City, Guatemala
+        988972	Napoli, Italy
+        987717	Benxi, China
+        987516	Zapopan, Jalisco, Mexico
+        984333	Birmingham, United Kingdom
+        982419	Perm’, Russia
+        975857	Srīnagar, India
+        975153	Zaria, Nigeria
+        973087	Managua, Nicaragua
+        967677	Port Elizabeth, South Africa
+        964891	Fès, Morocco
+        963395	Köln, Germany
+        962865	Ulsan, South Korea
+        959823	Coimbatore, India
+        958504	Brisbane, Queensland, Australia
+        954991	Maceió, Brazil
+        952024	Cartagena, Colombia
+        949018	Changzhou, China
+        946697	Sulţānah, Saudi Arabia
+        945942	San Jose, California, United States
+        939524	Monrovia, Liberia
+        938254	Mamuju, Indonesia
+        937700	Kingston, Jamaica
+        932800	Erbil, Iraq
+        927200	Krasnoyarsk, Russia
+        925000	Nay Pyi Taw, Myanmar
+        921476	Jodhpur, India
+        919729	Chiba-shi, Japan
+        917237	São Luís, Brazil
+        914371	Chandīgarh, India
+        909908	Madurai, India
+        903485	Salé, Morocco
+        903039	Huaibei, China
+        900414	Cochabamba, Bolivia
+        900000	Qom, Iran
+        900000	Abū Ghurayb, Iraq
+        900000	Abobo, Cote d'Ivoire
+        900000	Bishkek, Kyrgyzstan
+        899094	Guwāhāti, India
+        897560	Aba, Nigeria
+        889675	Pingdingshan, China
+        882458	Gwalior, India
+        882364	Qiqihar, China
+        879867	Klang, Malaysia
+        876884	Mendoza, Argentina
+        875530	Konya, Turkey
+        874761	Mbuji-Mayi, Democratic Republic of the Congo
+        874587	Vijayawāda, India
+        874062	Pikine, Senegal
+        868313	Mysore, India
+        865672	Wenzhou, China
+        865263	Torino, Italy
+        863725	Saratov, Russia
+        850848	Tegucigalpa, Honduras
+        850731	Bucheon, South Korea
+        848752	Voronezh, Russia
+        846454	Rānchī, India
+        846185	Naucalpan de Juárez, México, Mexico
+        844818	Ulaanbaatar, Mongolia
+        841145	Ahvāz, Iran

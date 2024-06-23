@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * The class is to run the main workflow.
  *
- * @author Jacq Kirkman <jacq.kirkman@seattlecolleges.edu>
+ * @author Jacq Kirkman 
  */
 public class FractionMain
 {
