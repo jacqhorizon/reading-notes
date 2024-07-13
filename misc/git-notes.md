@@ -19,3 +19,12 @@
 * [Check for existing SSH keys](2. https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys)
 * [Generate a new key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 * [Add a new SSH key to Github Account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+## Creating a New Repo
+
+* Create a new repo from the website
+  * Don't auto generate a readme
+* Copy the ssh link and use `git clone` to copy it into a folder on your local
+* In terminal, `touch README.md` and `touch .gitignore`
+* Generate a git ignore with [gitignore.io](https://www.toptal.com/developers/gitignore?templates=macos)
+* Add > Commit > Push
